@@ -1,0 +1,8 @@
+name = "quill-api"
+main = "src/index.ts"
+compatibility_date = "2026-06-20"
+compatibility_flags = ["nodejs_compat"]
+
+# Custom domain routing (requires CF API Token with Zone:Edit scope to attach at runtime).
+# Routes binding covers api.maplespike.ca + mcp.maplespike.ca.
+# Provisionally bind to *.workers.dev; CF API token will then enable custom-domain attach.
